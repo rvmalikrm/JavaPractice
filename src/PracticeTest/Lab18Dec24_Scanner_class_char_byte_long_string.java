@@ -17,9 +17,12 @@ public class Lab18Dec24_Scanner_class_char_byte_long_string {
         System.out.println("Enter the Mobile :");
         long mobile = sc.nextLong();
         System.out.println("Enter your favaurate Character :");
-        char c= sc.next().charAt(0);
+        char c= sc.next().charAt(0); /*Note that to receive a character we have to receive a string by calling
+        next( ) and then obtain the character at 0th position from this string by
+        calling charAt( ) function. */
         System.out.println("Enter the String :");
         String str=sc.nextLine();
+        System.out.println(" Details are below :");
         System.out.println(age);
         System.out.println(villagepoppulation);
         System.out.println(is_Male);
@@ -27,6 +30,8 @@ public class Lab18Dec24_Scanner_class_char_byte_long_string {
         System.out.println(mobile);
         System.out.println(c);
         System.out.println(str);
+
+
 
 
 
