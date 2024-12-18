@@ -7,7 +7,7 @@ public class Lab18Dec24_Scanner_class {
         float p, r, si;
         int n;
         System.out.println("Enter the value of p, n and r :");
-        Scanner sc =new Scanner(System.in);
+        Scanner sc =new Scanner(System.in); //System.in represents the keyboard.
         p=sc.nextFloat();
         n=sc.nextInt();
         r =sc.nextFloat();
