@@ -8,7 +8,7 @@ public class Lab3Nov2024countZeroandappendthem {
         // Input List
         int[] nums = {1,0,3,2,0,4,8,1,3,0};
         // Result List
-        List<Integer> result = new ArrayList<>();
+        List<Integer> result = new ArrayList<Integer>();
 
         for (int num : nums){
             if (num == 0){

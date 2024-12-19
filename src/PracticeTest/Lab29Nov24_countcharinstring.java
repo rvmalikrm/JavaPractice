@@ -3,10 +3,10 @@ package PracticeTest;
 import java.util.HashMap;
 public class Lab29Nov24_countcharinstring {
     public static void main(String[] args) {
-        String s="Karuna Munjal";
+        String s="@#$%^&*(-al";
         s=s.toLowerCase();
 // Create a Hashmap to store charecters count;
-        HashMap<Character, Integer> charCountMap = new HashMap<>();
+        HashMap<Character, Integer> charCountMap = new HashMap<Character, Integer>();
 // Loop through each character in the String
         for (char c : s.toCharArray()){
             if (Character.isLetterOrDigit(c)){
