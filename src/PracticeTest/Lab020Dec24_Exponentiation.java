@@ -11,5 +11,7 @@ public class Lab020Dec24_Exponentiation {
         System.out.println(f);
         double e=Math.abs(9.0043);
         System.out.println(e);
+        double g=Math.sin(90);
+        System.out.println(g);
     }
 }
