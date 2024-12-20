@@ -5,5 +5,11 @@ public class Lab020Dec24_Exponentiation {
         double d;
         d= Math.pow(3.0,2.0);
         System.out.println(d);
+        //Note that we should always use
+        //double values with pow( )
+        double f= Math.sqrt(4);
+        System.out.println(f);
+        double e=Math.abs(9.0043);
+        System.out.println(e);
     }
 }
