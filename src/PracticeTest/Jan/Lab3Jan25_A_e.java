@@ -8,6 +8,6 @@ public class Lab3Jan25_A_e {
         t = c + a * y * y / b ;
         //(a = 2.2, b = 0.0, c = 4.1, y = 3.0, assume t to be an float)
 
-        System.out.println((int)t);
+        System.out.println(t);
     }
 }
