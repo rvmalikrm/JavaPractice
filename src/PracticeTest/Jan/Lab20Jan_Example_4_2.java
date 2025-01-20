@@ -10,7 +10,6 @@ public class Lab20Jan_Example_4_2 {
         sub1=sc.nextFloat();
         sub2=sc.nextFloat();
         sub3=sc.nextFloat();
-
         Total=sub1+sub2+sub3;
         Float percentage= (Total*100)/300;
         if(percentage>=60)
