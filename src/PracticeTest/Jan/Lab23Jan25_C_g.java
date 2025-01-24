@@ -29,12 +29,14 @@ public class Lab23Jan25_C_g {
         int b = sc.nextInt();
         System.out.println("Enter the 3rd side of the triangle");
         int c = sc.nextInt();
-        if((a^2)==(b^2)+(c^2) || (b^2)==(a^2)+(c^2) || (c^2)==(b^2)+(a^2)){
-            System.out.println("The given triangle is Right Angled Triangele");
-        }
-        else {
-            String str = ((a == b && b == c) ? "equilateral" : (a == b || a == c || b == c) ? "isosceles" : "scalene");
-            System.out.println("The given triangle is " +str +" Triangele");
-        }
+        String str = (((a*a)==(b*b)+(c*c) || (b*b)==(a*a)+(c*c) || (c*c)==(b*b)+(a*a))?"Right angled":((a == b && b == c) ? "equilateral" : (a == b || a == c || b == c) ? "isosceles" : "scalene"));
+        System.out.println("The given triangle is " +str +" Triangele");
+//        if((a*a)==(b*b)+(c*c) || (b*b)==(a*a)+(c*c) || (c*c)==(b*b)+(a*a)){
+//            System.out.println("The given triangle is Right Angled Triangele");
+//        }
+//        else {
+//            String str = ((a == b && b == c) ? "equilateral" : (a == b || a == c || b == c) ? "isosceles" : "scalene");
+//            System.out.println("The given triangle is " +str +" Triangele");
+//        }
     }
 }
