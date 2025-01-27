@@ -13,7 +13,8 @@ public class Lab27Jan25_Do_while {
         do{
             System.out.println(i);
             i++;
-        }        while(i<3);
+
+        }        while(i<4);
 
 
     }
