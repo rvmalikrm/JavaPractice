@@ -27,6 +27,7 @@ public class Lab27Jan25_ArrayList {
         }
         for(int i=0; i<al.size();i++){
             System.out.println("Regular for loop "+ al.get(i));
+            break;
         }
         List<String> arrlist=Arrays.asList(strarr);
         boolean bol =arrlist.contains("GIC");
