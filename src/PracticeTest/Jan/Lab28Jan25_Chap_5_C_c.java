@@ -23,23 +23,39 @@ import java.util.Scanner;
 
 public class Lab28Jan25_Chap_5_C_c {
     public static void main(String[] args) {
-
-
-        for(int i=1;i<=500;i++){
+            for(int i=1;i<=500;i++){
             int orignalnum=i;
             int sum=0;
-            while(orignalnum!=0){
-                int digit=orignalnum%10;
-
-                sum+=digit*digit*digit;
-
-                orignalnum/= 10;
-
+            if(i<10) {
+                while (orignalnum != 0) {
+                    int digit = orignalnum % 10;
+                    sum += digit;
+                    orignalnum /= 10;
+                }
+                if (sum == i) {
+                    System.out.println(i);
+                }
             }
-            if(sum==i){
-                System.out.println(i);
+            else if(i>=10&&i<100) {
+                while (orignalnum != 0) {
+                    int digit = orignalnum % 10;
+                    sum += digit * digit;
+                    orignalnum /= 10;
+                }
+                if (sum == i) {
+                    System.out.println(i);
+                }
+            }
+                else{
+                    while (orignalnum != 0) {
+                        int digit = orignalnum % 10;
+                        sum += digit * digit * digit;
+                        orignalnum /= 10;
+                    }
+                    if (sum == i) {
+                        System.out.println(i);
+                    }
             }
         }
-
     }
 }
