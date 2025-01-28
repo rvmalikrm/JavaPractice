@@ -7,5 +7,11 @@ public class Lab28Jan25_method_p2 {
         String name2= obj2.getData2();
         System.out.println(name2);
 
+
+        getData3();
+
+    }
+    public static   void getData3(){
+        System.out.println("This third method");
     }
 }
