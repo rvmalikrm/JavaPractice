@@ -1,8 +1,6 @@
 package PracticeTest.Jan;
 
-import static java.lang.Math.sqrt;
-
-public class Lab29Jan25_Chap_5_C_d
+public class Lab29Jan25_Chap_5_C_d_PrimeNumber1to300
 {
     public static void main(String[] args)
     {
