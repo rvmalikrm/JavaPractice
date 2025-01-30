@@ -1,23 +1,34 @@
 package PracticeTest.Jan;
 
-public class Lab29Jan25_Chap_5_C_d {
-    public static void main(String[] args) {
-        for(int i=1;i<=300;i++){
-            int d=2;
-            while(d<=i-1)
-                if(i%d==0){
-                    System.out.println("Not a prime number");
-                    continue;
+import static java.lang.Math.sqrt;
+
+public class Lab29Jan25_Chap_5_C_d
+{
+    public static void main(String[] args)
+    {
+        boolean prime;
+        for(int num=1;num<=300;num++ )
+        {
+            if(num==1)
+            {
+                System.out.println("1 is neither prime nor composite");
+                continue;
+            }
+            prime=true;
+            for(int i=2;i<=num/2;i++){
+                if(num%i==0){
+                    prime=false;
+                    break;
                 }
-                d++;
-            if(d==i){
-                System.out.println("Prime number");
-                break;
             }
-            }
-
+        if(prime){
+            System.out.println(num);
 
         }
         }
+
+
+    }
+}
 
 
