@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Rectangle
 {
     private  int len, brd;
-    public void getData()
+    public  void getData()
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the rectangle's length and breadth");
@@ -44,6 +44,7 @@ public class Lab25Feb25_ClassesandObject
         r2.displayData();
         r2.areaPre();
         r3.getData();
+        //Rectangle.getData();
         r3.displayData();
         r3.areaPre();
     }
