@@ -2,7 +2,7 @@ package PracticeTest.Feb;
 import java.util.Scanner;
 class Rectangle
 {
-    private  int len, brd;
+    public int len, brd;
     public  void getData()
     {
         Scanner sc=new Scanner(System.in);
