@@ -1,9 +1,5 @@
 package PracticeTest.Apr;
-
-
-
 import java.util.HashMap;
-
 public class Lab24Apr25_charCompressor
 {
     public static void main(String[] args)
