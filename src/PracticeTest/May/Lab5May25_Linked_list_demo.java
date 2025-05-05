@@ -2,7 +2,7 @@ package PracticeTest.May;
 
 import java.util.LinkedList;
 
-public class Lab5May25_Linked_list_demi
+public class Lab5May25_Linked_list_demo
 {
     public static void main(String[] args)
     {
