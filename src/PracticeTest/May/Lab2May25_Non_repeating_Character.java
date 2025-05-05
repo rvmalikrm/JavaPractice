@@ -8,29 +8,35 @@
 //------------------------------------------------------------------------------------------//
 
 package PracticeTest.May;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class Lab2May25_Non_repeating_Character {
     public static void main(String[] args) {
-    String input= "Automation";
-    char result= firstnonrepeat(input);
-        System.out.println(result);
-    }
-    public static char firstnonrepeat(String input){
-        char currentchat=input.charAt(0);
-        int count=0;
-        char[] chararray=input.toCharArray();
-        for(int i=0;i<input.length()-1;i++)
+        String input = "automation";
+        char result = firstnonrepeat(input);
+        if (result != '\0') {
+            System.out.println(result);
+        } else
         {
-            if(currentchat==input.charAt(i+1))
-            {
-                count++;
-                currentchat=input.charAt(i+1);
-
+            System.out.println("No non-repeating character found.");
+        }}
+        public static char firstnonrepeat (String input)
+        {
+            Map<Character, Integer> freq = new LinkedHashMap<>();
+            char[] chrarray = input.toCharArray();
+            // Count frequency of each character
+            for (char ch : chrarray) {
+                freq.put(ch, freq.getOrDefault(ch, 0) + 1);
+                System.out.println(freq);
             }
+            // Find first character with count 1
+            for (Map.Entry<Character, Integer> entry : freq.entrySet()) {
+                if (entry.getValue() == 1) {
+                    return entry.getKey();
+                }
+            }
+            return '\0';
         }
-
-        return currentchat;
     }
-
-
-}
