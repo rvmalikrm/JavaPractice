@@ -18,12 +18,12 @@ public class Lab12May25_Numberwithindex {
         int len = arr.length;
 
         Map<Integer, Integer> indexmap = new LinkedHashMap<>();
-        List<Integer>  indexlist = new ArrayList<>();
+       ;
         for (int i = 0; i < len; i++) {
             indexmap.put(i, arr[i]);
             for (Map.Entry<Integer, Integer> entry : indexmap.entrySet()) {
                 if (entry.getValue() == input) {
-                  indexlist.add(entry.getKey());
+
                 }
             }
         }
