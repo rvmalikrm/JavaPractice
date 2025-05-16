@@ -8,6 +8,7 @@ import java.util.Set;
 public class Lab15May25_FindDuplicates {
     public static void main(String[] args) {
         int[] input={2,4,5,4};
+
         List<Integer> result=findingDuplicatas(input);
 
         System.out.println("Output :"+result);
