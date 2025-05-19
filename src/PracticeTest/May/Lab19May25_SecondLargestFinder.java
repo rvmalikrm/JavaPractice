@@ -1,5 +1,4 @@
 package PracticeTest.May;
-
 public class Lab19May25_SecondLargestFinder {
     public static void main(String[] args) {
         int[] input={3,6,8,100,123,9,12};
