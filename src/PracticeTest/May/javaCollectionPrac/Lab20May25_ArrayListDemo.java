@@ -22,6 +22,8 @@ public class Lab20May25_ArrayListDemo {
         if(al.contains("Pooja")){
             System.out.println("Pooja is available in Array List");
         }
+        int len= al.size();
+        System.out.println("The size of the array list "+len);
 
     }
 }
