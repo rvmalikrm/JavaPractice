@@ -1,6 +1,7 @@
 package PracticeTest.May.javaCollectionPrac;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class Lab20May25_ArrayListDemo {
     public static void main(String[] args) {
@@ -24,6 +25,8 @@ public class Lab20May25_ArrayListDemo {
         }
         int len= al.size();
         System.out.println("The size of the array list "+len);
+        Object obj =al.get(1);
+        System.out.println(obj);
 
     }
 }
