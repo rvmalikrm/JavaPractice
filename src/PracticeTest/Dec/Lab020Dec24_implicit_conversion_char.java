@@ -1,4 +1,4 @@
-package PracticeTest;
+package PracticeTest.Dec;
 
 public class Lab020Dec24_implicit_conversion_char {
     public static void main(String[] args) {

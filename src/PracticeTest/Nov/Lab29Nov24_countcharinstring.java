@@ -1,5 +1,5 @@
 
-package PracticeTest;
+package PracticeTest.Nov;
 import java.util.HashMap;
 public class Lab29Nov24_countcharinstring {
     public static void main(String[] args) {

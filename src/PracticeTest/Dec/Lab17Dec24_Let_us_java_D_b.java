@@ -1,4 +1,4 @@
-package PracticeTest;
+package PracticeTest.Dec;
 
 public class Lab17Dec24_Let_us_java_D_b {
     public static void main(String[] args) {

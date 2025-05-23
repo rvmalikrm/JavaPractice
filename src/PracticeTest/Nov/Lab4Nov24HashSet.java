@@ -1,8 +1,7 @@
-package PracticeTest;
+package PracticeTest.Nov;
 
 import java.util.Collections;
 import java.util.HashSet;
-import java.util.List;
 
 public class Lab4Nov24HashSet {
     public static void main(String[] args) {

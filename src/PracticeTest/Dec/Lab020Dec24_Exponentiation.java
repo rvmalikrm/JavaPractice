@@ -1,4 +1,4 @@
-package PracticeTest;
+package PracticeTest.Dec;
 import java.lang.Math;
 public class Lab020Dec24_Exponentiation {
     public static void main(String[] args) {

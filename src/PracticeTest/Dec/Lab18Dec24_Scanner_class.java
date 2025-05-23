@@ -1,4 +1,4 @@
-package PracticeTest;
+package PracticeTest.Dec;
 import java.util.Scanner;
 
 public class Lab18Dec24_Scanner_class {
