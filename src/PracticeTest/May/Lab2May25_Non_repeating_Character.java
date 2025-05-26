@@ -32,6 +32,7 @@ public class Lab2May25_Non_repeating_Character {
                 System.out.println(freq);
             }
             // Find first character with count 1
+            // this is the only way to Iterate on Map
             for (Map.Entry<Character, Integer> entry : freq.entrySet()) {
                 if (entry.getValue() == 1) {
                     return entry.getKey();
