@@ -36,5 +36,27 @@ public class Lab26May25_String_P1 {
 
         // contains()
         System.out.println(str1.contains("i"));
+
+        // replace() / replaceAll()
+        String str3= "Banana";
+        System.out.println(str1.replace("v","n"));
+        System.out.println(str3.replaceAll("a","O"));
+
+        // Splits
+        String str4= "apple,banana,mango";
+        String[] fruits= str4.split(",");
+        for (String f: fruits) {
+            System.out.println(f);
+        }
+
+        // trim()
+        String str5= " Intel  ";
+        System.out.println(str5.trim());
+
+        //isEmpty() / isBlank() (Java 11+)
+        // join() (Java 8+)
+        // repeat(n) (Java 11+)
+        // format()
+
     }
 }

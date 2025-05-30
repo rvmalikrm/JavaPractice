@@ -16,7 +16,17 @@ public class Lab20May25_HashMapDemo {
         hm.put("Fri", "Shiv");
         hm.put("Sat", "Sandeep");
         System.out.println(hm);
-        String str= hm.get("wed");
-        System.out.println(" On wed Status mainl will be sent by "+str);
+        String str = hm.get("wed");
+        System.out.println(" On wed Status mainl will be sent by " + str);
+        Iterator itr = new Iterator();
+
+        while(itr.hasNext())
+
+            {
+                Map.Entry<String, String> entry = itr.next();
+                System.out.println(entry.getKey() + " = " + entry.getValue());
+            }
+
+        }
     }
-}
+
