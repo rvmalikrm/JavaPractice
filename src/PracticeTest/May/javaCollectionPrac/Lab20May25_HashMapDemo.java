@@ -1,9 +1,6 @@
 package PracticeTest.May.javaCollectionPrac;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+import java.util.*;
 
 public class Lab20May25_HashMapDemo {
     public static void main(String[] args) {
@@ -18,10 +15,11 @@ public class Lab20May25_HashMapDemo {
         System.out.println(hm);
         String str = hm.get("wed");
         System.out.println(" On wed Status mainl will be sent by " + str);
-        Iterator itr = new Iterator();
 
+        // Get the entry set and create iterator
+        Set<Map.Entry<String,String>> entrySet=hm.entrySet();
+        Iterator<Map.Entry<String,String>> itr =entrySet.iterator();
         while(itr.hasNext())
-
             {
                 Map.Entry<String, String> entry = itr.next();
                 System.out.println(entry.getKey() + " = " + entry.getValue());
