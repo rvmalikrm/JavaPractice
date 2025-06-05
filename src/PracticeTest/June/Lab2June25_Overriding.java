@@ -1,18 +1,20 @@
 package PracticeTest.June;
 
 public class Lab2June25_Overriding {
-
-    // Method with 2 parameter
-    public int add(int a, int b){
-        return a+b;
+    public  void printer(String str){
+    System.out.println("Parent printer"+ str);
     }
-    public int add(int a,int b, int c){
-        return a+b+c;
-    }
-
-    public static void main(String[] args) {
-        Lab2June25_Overriding obj= new Lab2June25_Overriding();
-        System.out.println(obj.add(10,20));
-        System.out.println(obj.add(5, 10, 25));
-    }
+}
+class HP extends Lab2June25_Overriding {
+public void printer(String color){
+    System.out.println("Coler of the class is "+ color);
+}
+}
+class Overriding{
+public static void main(String[] args) {
+Lab2June25_Overriding obj=new Lab2June25_Overriding();
+HP obj2=new HP();
+obj.printer("Demo");
+obj2.printer("color");
+}
 }
