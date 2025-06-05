@@ -1,6 +1,6 @@
 package PracticeTest.June;
 
-public class Lab05June25_Ques1_isPalindrome {
+public class Lab05June25_Que1_isPalindrome {
     public static  boolean isPalindrome(String str){
         // Remove the spaces and convert to Lowercase
         str=str.replaceAll("\\s","").toLowerCase();
