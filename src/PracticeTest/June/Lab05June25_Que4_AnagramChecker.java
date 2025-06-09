@@ -23,8 +23,6 @@ public class Lab05June25_Que4_AnagramChecker {
         char[] arr2= str2.toCharArray();
         Arrays.sort(arr1);
         Arrays.sort(arr2);
-
-
         // Compare sorted arrays
         return Arrays.equals(arr1, arr2);
     }
