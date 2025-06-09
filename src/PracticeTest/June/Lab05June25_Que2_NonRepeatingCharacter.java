@@ -1,9 +1,7 @@
 package PracticeTest.June;
 
-
 import java.util.LinkedHashMap;
 import java.util.Map;
-
 public  class Lab05June25_Que2_NonRepeatingCharacter {
     public static void main(String[] args) {
         String str= "automation";
