@@ -10,7 +10,7 @@ public  class Lab05June25_Que2_NonRepeatingCharacter {
             System.out.println("Input  : "+str+"Output :" +result);
         }
         else{
-            System.out.println("Input "+ str+"Putput : there is no repeating Character");
+            System.out.println("Input "+ str+"Output : there is no repeating Character");
         }
     }
     public static Character nonRepeatingChar(String input){
