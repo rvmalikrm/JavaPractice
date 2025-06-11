@@ -10,8 +10,8 @@ public class Lab6may25_count_vowels_in_an_String
     public static void main(String[] args)
     {
         String input = "Easy Automationeeeeeeeeeeee";
-        int outpu=countVowels(input);
-        System.out.println("vowels count in String is "+ outpu);
+        int output=countVowels(input);
+        System.out.println("vowels count in String is "+ output);
 
     }
     public static int countVowels(String input){
