@@ -1,6 +1,6 @@
 package PracticeTest.June;
 
-public class Lab05June25_Que5_String_Contains_only_Digit_regex
+public class Lab05June25_Que6_String_Contains_only_Digit_regex
 {
     public static void main(String[] args)
     {

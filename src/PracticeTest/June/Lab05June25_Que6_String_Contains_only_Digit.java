@@ -1,9 +1,6 @@
 package PracticeTest.June;
 
-import java.util.HashMap;
-import java.util.Map;
-
-public class Lab05June25_Que5_String_Contains_only_Digit {
+public class Lab05June25_Que6_String_Contains_only_Digit {
     public static void main(String[] args) {
         String input= "124567qw89";
         boolean output= digitChecker(input);
