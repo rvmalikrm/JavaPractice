@@ -6,7 +6,7 @@ public class Lab02July_25_Ques9_PUtZerros_At_end
 {
     public static void main(String[] args)
     {
-        int[] input = {0, 1, 0, 3, 12,0,34,6,0,23,7,0,0,56,7,0,45};
+        int[] input = {0, 1, 0, 3, 12};
         int[] output = zerroAtEnd(input);
         System.out.println("Array with Zeros at End  "+ Arrays.toString(output));
     }
