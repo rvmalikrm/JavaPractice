@@ -15,6 +15,7 @@ public class Lab15July25_Ques12_FindtheIntersection
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
 
+
         // Debug: Print frequency map
         System.out.println("Frequency Map: " + map);
 
