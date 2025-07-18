@@ -1,6 +1,6 @@
 package PracticeTest.July;
 
-public class Lab02_July_25_Que7_Longest_Common_Prefix {
+public class Lab02_July_25_Que7_Longest_Common_Prefix_Iteration2 {
     public static void main(String[] args) {
         String[] testCases = {"automationTest", "autoDeploy", "autoRun"};
         String output = findLongestPrefix(testCases);
