@@ -3,7 +3,7 @@ public class numericPalindrome
 {
     public static void main(String[] args)
     {
-        int num = 12321;
+        int num = 1234321;
         boolean result =isNumPalindrome(num);
         System.out.println("Given number is Palindrome -->  "+result);
     }
