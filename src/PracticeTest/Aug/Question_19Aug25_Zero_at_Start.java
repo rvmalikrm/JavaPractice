@@ -1,6 +1,7 @@
 package PracticeTest.Aug;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Question_19Aug25_Zero_at_Start {
@@ -25,6 +26,6 @@ public class Question_19Aug25_Zero_at_Start {
                 list.add(input[i]);
             }
         }
-        System.out.println(list);
+        System.out.println(Arrays.toString(list.toArray()));
     }
 }
