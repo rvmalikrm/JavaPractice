@@ -6,7 +6,7 @@ public class Lab19May25_TwoSumFinder
     public static void main(String[] args)
     {
         int[] input = {2, 7, 11, 15};
-        int targetErrorCode = 9;
+        int targetErrorCode = 18;
         int[] result = findTwoSum(input, targetErrorCode);
         System.out.println("Output : [" + result[0] + "," + result[1] + "]");
     }
