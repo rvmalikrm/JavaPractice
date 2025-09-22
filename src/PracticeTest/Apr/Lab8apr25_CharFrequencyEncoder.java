@@ -12,7 +12,6 @@ public class Lab8apr25_CharFrequencyEncoder
     public static String EncoderCharacterFrequency(String str)
     {
         Map<Character, Integer> countMap = new LinkedHashMap<Character, Integer>();
-        StringBuilder sb = new StringBuilder();
         for (char ch : str.toCharArray())
         {
             countMap.put(ch, countMap.getOrDefault(ch, 0) + 1);
