@@ -15,7 +15,7 @@ public class Lab28SeptGenerics {
     }
     public static <T> void printArray(T[] array){
         for(T ele:array){
-            System.out.println("Elements of  Array "+ele+" ");
+            System.out.printf("%s",ele);
         }
     }
 }
