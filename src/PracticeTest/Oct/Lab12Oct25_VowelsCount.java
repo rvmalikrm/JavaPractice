@@ -10,7 +10,7 @@ public class Lab12Oct25_VowelsCount {
                 count++;
             }
         }
-        System.out.println(count);
+
 
 
     }
