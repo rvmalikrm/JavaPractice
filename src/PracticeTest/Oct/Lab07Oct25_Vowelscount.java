@@ -8,6 +8,7 @@ public class Lab07Oct25_Vowelscount {
             char ch = str.charAt(i);
             if(ch=='a'|| ch=='e'|| ch=='i'||ch=='o'||ch=='u' ){
                 count++;
+                System.out.print(ch);
             }
         }
         System.out.println(count);
