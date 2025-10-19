@@ -9,6 +9,10 @@ public class Lab18Oct25_AnagramChecker {
             System.out.println(str1 + " and " + str2 + " are anagrams.");
         } else {
             System.out.println(str1 + " and " + str2 + " are not anagrams.");
+            System.out.println(str1 + " and " + str2 + " are not anagrams.");
+           // ystem.out.println(str1 + " and " + str2 + " are not anagrams.");
         }
     }
 }
+
+
