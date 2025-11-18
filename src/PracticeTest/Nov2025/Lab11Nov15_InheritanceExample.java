@@ -16,7 +16,7 @@ class Parent extends GrandParent{
         System.out.println("This is Parent tracter");
     }
 }
- class Child extends Parent{
+ class Child extends Parent1 {
 
     public Child(){
 
@@ -36,7 +36,7 @@ public class Lab11Nov15_InheritanceExample {
         Child c= new Child();
         c.car();
         c.home();
-        c.Tracker();
+        //c.Tracker();
 
 
     }
