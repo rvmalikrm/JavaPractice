@@ -25,6 +25,7 @@ public class Lab5Dec2025_MultiDArrays {
                 System.out.print(arr[i][j] + " ");
 
             }
+            System.out.println(); // for new line after each row
         }
     }
 }
