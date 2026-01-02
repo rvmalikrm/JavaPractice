@@ -3,7 +3,7 @@ package Jan2026;
 public class Lab02Jan20206_Test1 {
     public static void main(String[] args) {
         String str1 = "racecar";
-        String str2 = "hello";
+        String str2 = "carrace";
         System.out.println(areAnagrams(str1, str2));
 
     }
